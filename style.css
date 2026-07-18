@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background:linear-gradient(
+        135deg,
+        #ffffff,
+        #ffe6f2,
+        #f8d7ff
+    );
+}
+header{
+    width:100%;
+    padding:20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+.logo{
+    display: flex;
+    align-items:center ;
+    gap:15px;
+}
+.logo-circle{
+    width:55px;
+    height:55px;
+    background: #8a2be2;
+    color:white;
+     border-radius:50%;
+     display: flex;
+     justify-content:center ;
+     align-items: center;
+     font-size:28px;
+     font-weight:bold;
+     box-shadow:0 4px 10px rgba(138, 43, 226, 0.4)
+}
+.logo h2{
+    font-size: 35px;
+    color:#222;
+    font-weight: 700;
+}
+.active{
+    background-color: #8a2be2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+nav a {
+    text-decoration:none ;
+    color: #333;
+    margin:0 18px;
+    font-weight:500;
+}
+nav a:hover{
+    color:#8a2be2;
+}
+.button{
+    background:#8a2be2;
+    color:#fff;
+    padding:12px 28px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.3s;
+    font-size: 16px;
+    font-weight: 600;
+}
+.button:hover{
+    background:#6a1b9a;
+    transform: 0.3s;
+}
+.hero{
+    width:100%;
+    min-height:70vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px 8% ;
+    margin-bottom: 20px;
+}
+.left{
+    width:40%;
+}
+.left h1{
+font-size: 55px;
+line-height: 1.2;
+margin-bottom: 20px;
+}
+.left p{
+    font-size: 18px;
+    color:#666;
+    margin-bottom: 30px;
+}
+.right{
+    width:40%;
+    display: flex;
+    justify-content: center;
+
+}
+.right img{
+    width:300px;
+    max-width: 320px;
+    display: 25px;
+    box-shadow: 0 20px 40px  rgba(0,0,0,.15);
+    height: auto;
+    border-radius: 20px;
+}
+.stats{
+    width:50%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.box{
+    width:30%;
+    background:#f5ebff;
+    padding:30px;
+    border-radius: 15px;
+    text-align: center;
+}
+.box h2{
+    color:#8a2be2;
+    font-size: 38px;
+}
+.box p {
+    margin-top: 10px;
+    color:#555;
+}
